@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin: .5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+}

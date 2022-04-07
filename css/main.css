@@ -3,6 +3,8 @@ html {
   line-height: 1.5;
   font-size: 1.125rem;
   margin: .5rem;
+  background-color: #fff;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -11,4 +13,14 @@ html {
 
 img {
   width: 2rem;
+}
+
+img, h1, p{
+ display: inline;
+}
+
+li {
+  color: #0074d9;
+  flex-wrap: wrap;
+  display: inline;
 }

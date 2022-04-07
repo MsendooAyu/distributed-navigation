@@ -11,7 +11,10 @@ html {
 }
 
 body {
-  background-color: #e2e2e2;
+  margin: 0;
+}
+
+main {
   margin: auto;
 }
 
@@ -29,38 +32,32 @@ header img {
 }
 
 header h1 {
-  display: inline;
   margin: .5rem;
   padding: 1rem;
 }
 
 header p {
-  display: inline;
   margin: .5rem;
   padding: 1rem;
 }
 
 nav li {
-  display: inline;
   margin: .5rem;
   padding: .75em 1em .6em;
 }
 
 nav ul {
-  display: inline;
   margin: .5rem;
   padding: .75em 1em .6em;
 }
 
 nav a {
-  display: inline;
   margin: .5rem;
   color: #0074d9;
   padding: .75em 1em .6em;
 }
 
 nav a:hover {
-  display: inline;
   color: #fff;
   margin: .5rem;
   padding: .75em 1em .6em;

@@ -11,16 +11,30 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 2rem;
+header{
+  background-color: #e2e2e2;
 }
 
-img, h1, p{
+main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+  width: 2rem;
+  display: inline;
+}
+
+h1 {
+  display: inline;
+}
+
+p {
  display: inline;
 }
 
-li {
+nav li {
   color: #0074d9;
   flex-wrap: wrap;
   display: inline;
+  padding: .75em 1em .6em;
 }

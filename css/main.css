@@ -11,15 +11,21 @@ html {
 }
 
 body {
-  display: flex;
   background-color: #e2e2e2;
+  margin: auto;
+}
+
+header {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header img {
   flex-wrap: wrap;
   margin: .5rem;
   width: 2rem;
-  display: inline;
 }
 
 header h1 {
@@ -37,20 +43,25 @@ header p {
 nav li {
   display: inline;
   margin: .5rem;
-  padding: 1rem;
-  flex-wrap: wrap;
+  padding: .75em 1em .6em;
+}
+
+nav ul {
+  display: inline;
+  margin: .5rem;
+  padding: .75em 1em .6em;
 }
 
 nav a {
   display: inline;
-  color: #0074d9;
   margin: .5rem;
-  padding: 1rem;
+  color: #0074d9;
+  padding: .75em 1em .6em;
 }
 
- nav a:hover {
+nav a:hover {
   display: inline;
-  color: #0074d9;
+  color: #fff;
   margin: .5rem;
-  padding: 1rem;
+  padding: .75em 1em .6em;
 }

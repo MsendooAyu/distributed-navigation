@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-size: 1.125rem;
+  margin: .5rem;
   background-color: #fff;
   font-family: sans-serif;
 }
@@ -10,47 +11,48 @@ html {
   box-sizing: inherit;
 }
 
-body {
+ body {
   display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ }
+
+header {
   background-color: #e2e2e2;
 }
 
+main{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 header img {
-  flex-wrap: wrap;
-  margin: .5rem;
-  width: 2rem;
   display: inline;
 }
 
 header h1 {
+  margin: 0 auto;
   display: inline;
-  margin: .5rem;
-  padding: 1rem;
 }
 
 header p {
   display: inline;
-  margin: .5rem;
-  padding: 1rem;
 }
 
 nav li {
+  color: #0074d9;
   display: inline;
-  margin: .5rem;
-  padding: 1rem;
-  flex-wrap: wrap;
+  padding: .75em 1em .6em;
+  flex: wrap;
 }
 
 nav a {
-  display: inline;
   color: #0074d9;
   margin: .5rem;
-  padding: 1rem;
+  padding: .75em 1em .6em;
 }
 
- nav a:hover {
-  display: inline;
+a:hover {
   color: #0074d9;
-  margin: .5rem;
-  padding: 1rem;
+  background-color: #0074d9;
 }

@@ -22,20 +22,17 @@ header {
 }
 
 header img {
-  flex-wrap: wrap;
-  margin: .5rem;
   width: 2rem;
   order: -1;
 }
 
 header h1 {
-  margin: 0 auto;
+  margin: 0;
   padding: 1rem;
 }
 
 header p {
-  margin: .5rem;
-  padding: 1rem;
+  margin: 0 auto;
 }
 
 nav li {
@@ -46,8 +43,8 @@ nav li {
 
 nav ul {
   display: flex;
-  margin: .5rem;
-  padding: .75em 1em .6em;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
